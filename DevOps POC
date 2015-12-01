@@ -1,0 +1,208 @@
+
+
+
+[Name of project]
+<DevOps>/<PoC> Plan
+This plan is also applicable to a Proof of Concept (PoC)
+
+Version History
+Date	Version	Author	Description
+			
+			
+			
+			
+
+Approval History
+Name	Title	Signature	Date
+	CI/CD 		
+			
+			
+
+Review History
+Name	Title	Signature	Date	Version
+	Requester			
+				
+				
+				
+
+Distribution list
+Name	Title	Signature	Date	Version
+	DevOps  Team			
+
+
+
+ 
+Table of Contents
+1. Document Overview	4
+1.1. Purpose of this document	4
+1.2. Terms and Abbreviations	4
+1.3. References	4
+2. Pilot Scope	5
+3. Pilot Objectives	6
+4. Pilot Resources	7
+4.1. DevOps Reference Group	7
+4.2. DevOps Participants	7
+4.3. DevOps Team (include technical resources as well as support resources during training and vendor resources)	7
+5. DevOps Costs	8
+6. DevOps Schedule	9
+7. Success Criteria and Metrics	11
+8. DevOps Evaluation	13
+9. DevOps Risks	14
+Appendix A – Requirements Definition	15
+Appendix B – DevOps tool evaluation and selection	17
+Appendix C – Training Plan	18
+Appendix D – Supportability Matrix	19
+Appendix E - Communication Strategy	20
+Appendix F – Key Questions to Answer About the Pilot	24
+
+ 
+1. Document Overview
+1.1. Purpose of this document
+[This plan analyses the opportunity to conduct a pilot project, defines pilot main characteristics and identifies the activities, schedule, and deliverables of a Pilot Project. The plan also discusses resource requirements; interfaces and dependencies with other groups; and risk.]
+1.2. Terms and Abbreviations
+[List any abbreviations or jargon terms that are used in the document. It should be borne in mind that the document has a primarily non-technical audience.]
+ 
+Term/Abbreviation	Meaning
+CI	Continuous Integration
+CD 	Continuous Delivery
+PoC	Proof of Concept
+
+1.3. References
+Include the ‘Key questions to answer about the pilot’ guidelines and any other documentation used during the pilot/PoC planning
+
+Document	URL
+‘Key questions to answer about the pilot’ guidelines	
+
+ 
+ 
+2. DevOps Scope
+[Define the scope of the devops by clearly stating which functions (based on pre-feasibility study), This devops scope for entire project lifecycle.
+On each and every phase testing should happen.
+
+Phases that are available in the devops as shown in the below diagram
+.1) plan 
+2) Code 
+3) Build 
+4) Test
+5) Release 
+7)Deploy
+8)Operate
+ 
+3. DevOps Objectives
+[Explicitly state the objectives of the POC . Use the objectives to identify criteria for measuring the success of your pilot.
+
+E.g.
+•	Ensure that the system adds value to Continuous Integration and Continuous delivery
+•	Ensure that the system works properly in the business environment
+•	Ensure that the design meets the business requirements
+•	Test the build and deployment process
+•	Gather information for estimating actual hardware and supportability requirements]
+ 
+4. DevOps tools 
+[List all key resources, including their role]
+4.1. Devops tools kit
+Resource	Role
+Netbean 
+Ant/Maven
+Git/GitHub
+Jenkins
+Artifact Repository 
+Chef 	IDE
+Build 
+Source Control
+Continuous Integration
+Artifact Repository
+DevOps Tool 
+
+ 
+Responsibilities: [include installation, configuration and documentation activities]
+ 
+5. DevOps Costs
+[Provide a breakdown of the pilot cost including labour, hardware, licenses, etc and who will fund it.]
+  
+6. DevOps Schedule
+[The following is an example of a pilot schedule:]
+Key DevOps Activities
+
+Activities	Expected Completion Date	Responsible	Actual Completion date
+Request information from solutions’ vendors as per solutions identified at the pre-feasibility study stage		Business Analyst	
+Hold vendor demonstrations of solutions identified at the pre-feasibility study stage		Business Analyst	
+Evaluate solutions and select the one(s) to be piloted		Business Analyst	
+Produce Test Cases		Business Analyst	
+Purchase software solution license for trial and any hardware and additional software required for testing (procurement)		TBC	
+Set up infrastructure & network, as per software architecture details		DevOps -Technology Services	
+Deploy and configure software solution to be piloted		DevOps-Technology Services	
+Configure university applications that will interface with the software solution to be piloted		Pilot Team -Technology Services	
+Prepare data to be used for the software test		Business Analyst, Requester	
+Continuous Deployment and Continuous Delivery		DevOps Team.	
+
+
+  
+7. Success Criteria and Metrics
+[The Success Criteria and Metrics section defines the pilot’s success criteria and the specific measurements that will be taken to determine the level of success. A pilot can be declared “complete” or be graded in terms such as "partially successful" or "unsuccessful." Each measurement description should include a target metric and an acceptable range of values. The success criteria may fall into the following categories:
+
+•	System performance: i.e.
+Category	Measurement description	Target metric	Acceptable range of values
+System Performance	Manage concurrent users 	No of concurrent users	[10000 – 26000 concurrent users] 
+Other measurement descriptions are: security, scalability, load, impact on standard operating environment & University computer standards. 
+
+•	Operations cost: i.e.
+Category	Measurement description	Target metric	Acceptable range of values
+Operations cost	Reduction in support cost	Service Desk support (hrs.) per month	[1hr per month – 5hrs per month] 
+
+•	Stability –down time: i.e.
+Category	Measurement description	Target metric	Acceptable range of values
+Stability – down time	Minimal down time per trimester	hrs.	[4hrs – 6hrs]
+Other measurement descriptions are: reliability, sustainability
+
+•	User performance: i.e.
+Category	Measurement description	Target metric	Acceptable range of values
+User performance	Reduction of time to complete a task using the software piloted	Time to complete a task (i.e.: time to create a test with 10 questions)	[5 minutes – 10 minutes] 
+
+•	User satisfaction: i.e.
+Category	Measurement description	Target metric	Acceptable range of values
+User satisfaction	Satisfaction with the software piloted 	Agree/Disagree	[90% - 100% of participants  agree] 
+
+
+
+
+
+
+•	Business goals: i.e.
+Category	Measurement description	Target metric	Acceptable range of values
+Business goals	Assist student learning 	Agree/Disagree	[90% - 100% of student participants  agree] 
+Business goals	Assist staff in developing best practices in blended learning	Agree/Disagree	[90% - 100% of academic participants agree]
+
+
+]
+ 
+8. DevOps Evaluation
+[The DevOps Evaluation section describes how the results of the pilot will be evaluated. It includes the process by which lessons learnt will be incorporated into the final solution deployment. It describes the method(s) for assessing the quality of the pilot deployment process (e.g. user surveys, peer reviews, user interviews, etc.). It also describes the process for identifying, assigning, and following up on action items related to deployment or product issues identified during the pilot.
+
+Data Collection Tools: Surveys, Focus group/Workshop, Cost/benefit analysis.]
+
+ 
+9. DevOps Risks
+[Provide details of all risks relevant to the proposed project that have been identified to date. Consider the following Legislation stated on the University’s Legal & Risk Website:
+http://www.legislation.sa.gov.au/LZ/C/A/STATE%20RECORDS%20ACT%201997/CURRENT/1997.8.UN.PDF
+http://www.comlaw.gov.au/Series/C2004A03712 
+. An example table is included below;]
+Ref #	Risk	Likelihood	Consequence	Risk Rating	Control
+1	Technology Services resources & academic staff (who submitted the trial request) are not available when needed	B	2	Medium	-During pilot planning, Technology Services resources should be allocated to the pilot project as required.
+-Careful communication (including next activities and timeframe) to all parties so as to ensure resources are made available when needed.
+Despite these risks the project would appear to be viable at this stage, and it would appear that each of these risks would be able to be effectively mitigated 
+Appendix B – DevOops tools evaluation and selection results
+[This section is included for appendices as required. Replicate the section if more appendices are needed. Remember to update the Table of Contents for the document to pick up the change.]
+
+Chef and Puppet evaluation and comparison matrix.
+
+ 
+Appendix D – Supportability Matrix
+[This section is included for appendices as required. Replicate the section if more appendices are needed. Remember to update the Table of Contents for the document to pick up the change]
+
+Name	Contact Details	Role	Responsibility (i.e.: first point of contact when raising issues, environment support, software defects resolution)
+			
+			
+ 
+Appendix F – Key Questions to Answer About the DevOps tools implementation
+
